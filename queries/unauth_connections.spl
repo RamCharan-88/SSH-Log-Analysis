@@ -1,0 +1,2 @@
+index=ssh_logs event_type="Connection Without Authentication"
+| stats count by id.orig_h

@@ -1,0 +1,2 @@
+index=ssh_logs id.orig_h="SUSPICIOUS_IP"
+| stats count by event_type

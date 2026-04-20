@@ -1,0 +1,2 @@
+index=ssh_logs event_type="Successful SSH Login"
+| stats count by id.orig_h, id.resp_h
